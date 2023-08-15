@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Temperature Converter</h1>
+        <div class="container">    
+        
+        <div class="first">    
+            <div class="celsius">
+                <label>Celsius (°C)</label>
+                <input type="number" class ="input" id="celsius" oninput="ctk()">
+            </div>
+            </div>
+            <div class="second">
+            <div class="fahrenheit">
+                <label>Fahrenheit (°F)</label>
+                <input type="number" class ="input" id="fahr" oninput="ftc()">
+            </div>
+            </div>
+            <div class="third">
+            <div class="kelvin">
+            <label>Kelvin (K)</label>
+            <input type="number" class ="input" id="kelvin" oninput="ktc()" >
+            </div>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
